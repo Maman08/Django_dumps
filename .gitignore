@@ -1,0 +1,23 @@
+# Python-related files
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+
+# Django-related files
+/db.sqlite3  # SQLite database (agar tum SQLite use kar rahe ho to)
+*.log  # Logs ko ignore karna
+media/  # User-uploaded media files (agar alag se store nahi kar rahe)
+staticfiles/  # Collectstatic se generate hone wale files
+.env  # Environment variables (secret keys, database credentials)
+config/settings_local.py  # Agar settings ka local version hai
+
+# Virtual environment
+venv/
+.env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
